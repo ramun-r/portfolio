@@ -12,6 +12,9 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-color: var(--first-color);
     font-family: Arial, sans-serif;
     text-align: left;
@@ -35,8 +38,9 @@ header {
 }
 
 main {
+    flex: 1;
     font-size: 2rem;
-    padding: 60px;
+    padding: 20px;
 }
 
 h1 {
